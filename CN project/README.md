@@ -1,5 +1,5 @@
-# Smart-Drive_SIH2018
-Smart India Hackathon 2018 project : Ministry of Road Transport & Highways
+
+
 
 ### Problem Statement
 Identification of accident prone Spots by the road users and their reporting to the concerned Highway Authority.
@@ -27,7 +27,6 @@ users to notice and will only be unmarked if authority post pictures with detail
 
 
 
-#### Screenshots
-![](readme_Images/SmartDrive_SIH_logo.png)
+
 
 
