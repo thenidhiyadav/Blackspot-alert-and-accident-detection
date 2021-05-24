@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="500dp"
+        android:layout_height="222dp"
+        android:layout_margin="0dp"
+        android:background="#0000"
+        card_view:cardBackgroundColor="@color/design_default_color_surface"
+        card_view:cardCornerRadius="1dp"
+        card_view:cardElevation="1dp">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="395dp"
+            android:layout_height="233dp"
+            card_view:srcCompat="@drawable/img_2" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        card_view:srcCompat="@drawable/img_4" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="371dp"
+        android:layout_height="102dp"
+        card_view:srcCompat="@drawable/report_1" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_gravity="center|left" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="356dp"
+        android:layout_height="96dp"
+        card_view:srcCompat="@drawable/report_2" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:background="#DAF8D9D9"
+        android:text="POST COMMENTS BELOW" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:background="#FFD3D3"
+        android:text="POST"
+        app:backgroundTint="#F8D5D5" />
+
+</LinearLayout>
